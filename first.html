@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-page</title>
+</head>
+<body>
+    <div style="background-image: url('360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg');">
+    <form>
+        <fieldset>
+            <legend>User Information :</legend>
+            <label for="Enter name">Enter name: </label><br>
+                <input type="text" name="firstname"/> <br/><br/>
+        
+            <label for="email" >Email: </label><br>  
+                <input type="text" id="email" name="email" required/> <br/> <br> 
+
+            <label for="possword">Possword: </label><br>
+                <input type="password" name="possword" required/><br/><br/>
+        
+            <label for="DOB">DOB:</label><br>
+                <input type="date" name="DOB" required/><br/><br/>
+        
+
+            <label for="gender" required>Gender: </label>
+                <input type="radio" id="gender" name="gender" value="male"/>Male
+                <input type="radio" id="gender" name="gender" value="female"/>Female  
+                <input type="radio" id="gender" name="gender" value="other"/>Other <br/><br>   
+
+            <label for="Education" required>Select education: </label>
+                <select name="course" id="register_course">
+                    <option value="bsc">B.Sc</option>
+                    <option value="BA">BA</option>
+                    <option value="msc">M.Sc</option>
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="btech">btech</option>
+                </select><br><br>
+            <label for="Address">Enter your address :</label><br>
+                <textarea ></textarea>
+            
+            <label for="submit"></label><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" name="submit"/>
+            
+            
+            <label for="reset"></label>
+                <input type="reset" name="reset"/> <br/><br/>
+
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
